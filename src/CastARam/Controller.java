@@ -1,4 +1,4 @@
-package sample;
+package CastARam;
 
 public class Controller {
 }
