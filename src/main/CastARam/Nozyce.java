@@ -1,4 +1,4 @@
-package CastARam;
+package main.CastARam;
 
 public abstract class Nozyce {
 

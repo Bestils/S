@@ -1,4 +1,4 @@
-package CastARam.GumoweDAO;
+package main.CastARam.GumoweDAO;
 
 public enum Gietkosci {
     TWARDY,MIEKKI,SPREZYSTY,REZONUJACY;

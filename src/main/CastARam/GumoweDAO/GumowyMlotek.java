@@ -1,9 +1,10 @@
-package CastARam.GumoweDAO;
+package main.CastARam.GumoweDAO;
 
+import  org.hibernate:hibernate-core:5.4.9.Fina
 
-import CastARam.Mlot;
+import main.CastARam.Hammer;
 
-public class GumowyMlotek extends Mlot {
+public class GumowyMlotek extends Hammer {
 
    Float srednicaObucha;
    int masaObucha;
