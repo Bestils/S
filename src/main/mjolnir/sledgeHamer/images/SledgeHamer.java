@@ -1,6 +1,6 @@
-package main.CastARam.sledgeHamer.images;
+package main.mjolnir.sledgeHamer.images;
 
-import main.CastARam.Hammer;
+import main.mjolnir.Hammer;
 
 public class SledgeHamer extends Hammer {
     public SledgeHamer(int ID, String brand, String name, int hardness, int wage, int cena, String material) {

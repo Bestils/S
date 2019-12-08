@@ -1,6 +1,6 @@
-package main.CastARam.KamieniarskieDAO;
+package main.mjolnir.KamieniarskieDAO;
 
-import main.CastARam.Hammer;
+import main.mjolnir.Hammer;
 
 public class KamieniarskiMlotek extends Hammer {
 
@@ -20,7 +20,7 @@ public class KamieniarskiMlotek extends Hammer {
     public Boolean getIsHardened() {
         return isHardened;
     }
-setingsBar
+
     public void setIsHardened(Boolean isHardened) {
         this.isHardened = isHardened;
     }

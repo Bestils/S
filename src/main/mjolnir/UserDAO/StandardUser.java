@@ -1,4 +1,4 @@
-package main.CastARam.UserDAO;
+package main.mjolnir.UserDAO;
 
  interface StandardUser {
      public  int setID();

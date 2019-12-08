@@ -1,6 +1,6 @@
-package main.CastARam.StolarskieDAO;
+package main.mjolnir.StolarskieDAO;
 
-import main.CastARam.Hammer;
+import main.mjolnir.Hammer;
 
 import java.util.List;
 

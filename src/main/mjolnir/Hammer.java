@@ -1,17 +1,27 @@
-package main.CastARam;
+package main.mjolnir;
 
+
+import org.hibernate.annotations.Immutable;
+
+import javax.persistence.*;
+
+@Entity
+@Immutable
 public abstract class Hammer {
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @Column(name = &quot;id&quot;, updatable = false, nullable = false)
+    private Long ID;
 
-    int ID;
-    String brand;
-    String name;
-    int hardness;
-    int wage;
-    int price;
-    String material;
+    private String brand;
+    private String name;
+    private int hardness;
+    private int wage;
+    private int price;
+    private String material;
 
 
-    public Hammer(int ID, String brand, String name, int hardness, int wage, int cena, String material) {
+    protected Hammer(Long ID, String brand, String name, int hardness, int wage, int cena, String material) {
         this.ID = ID;
         this.brand = brand;
         this.name = name;
@@ -19,6 +29,9 @@ public abstract class Hammer {
         this.wage = wage;
         this.price = cena;
         this.material = material;
+    }
+
+    protected Hammer() {
     }
 
 

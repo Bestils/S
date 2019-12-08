@@ -1,8 +1,8 @@
-package main.CastARam.GumoweDAO;
+package main.mjolnir.GumoweDAO;
 
-import  org.hibernate:hibernate-core:5.4.9.Fina
 
-import main.CastARam.Hammer;
+
+import main.mjolnir.Hammer;
 
 public class GumowyMlotek extends Hammer {
 
