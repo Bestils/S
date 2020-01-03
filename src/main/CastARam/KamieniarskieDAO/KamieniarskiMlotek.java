@@ -20,7 +20,7 @@ public class KamieniarskiMlotek extends Hammer {
     public Boolean getIsHardened() {
         return isHardened;
     }
-setingsBar
+
     public void setIsHardened(Boolean isHardened) {
         this.isHardened = isHardened;
     }

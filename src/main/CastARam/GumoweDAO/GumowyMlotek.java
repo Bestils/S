@@ -1,6 +1,6 @@
 package main.CastARam.GumoweDAO;
 
-import  org.hibernate:hibernate-core:5.4.9.Fina
+
 
 import main.CastARam.Hammer;
 
@@ -10,8 +10,6 @@ public class GumowyMlotek extends Hammer {
    int masaObucha;
    String normy;
    Gietkosci gietkosc;
-
-
 
     public GumowyMlotek(int ID, String marka, String nazwa, int twardosc, int waga, int cena, String material, Float srednicaObucha, int masaObucha, String normy, Gietkosci gietkosc) {
         super(ID, marka, nazwa, twardosc, waga, cena, material);
