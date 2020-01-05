@@ -46,7 +46,7 @@
                               <Image url="@/resources/images/mainPage/sledge1.jpg" />
                            </image></ImageView>
                         <Text layoutX="251.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sldege Hammer" />
-                        <Button layoutX="271.0" layoutY="100.0" mnemonicParsing="false" onAction="#partsButtonPushed" text="Enter" />
+                        <Button layoutX="271.0" layoutY="100.0" mnemonicParsing="false" onAction="#sledgeButtonPushed" text="Enter" />
                      </children>
                   </AnchorPane>
                   <AnchorPane prefHeight="169.0" prefWidth="574.0" style="-fx-border-style: dotted;" GridPane.rowIndex="1">
@@ -67,14 +67,14 @@
                               <Image url="@/resources/images/mainPage/kamieniarski.jpg" />
                            </image></ImageView>
                         <Text layoutX="240.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Młotki Kamieniarskei" />
-                        <Button layoutX="271.0" layoutY="88.0" mnemonicParsing="false" onAction="#partsButtonPushed" text="Enter" />
+                        <Button layoutX="271.0" layoutY="88.0" mnemonicParsing="false" onAction="#stoneButtonPushed" text="Enter" />
                      </children>
                   </AnchorPane>
                   <AnchorPane onMouseClicked="#rubberButtonPushed" prefHeight="152.0" prefWidth="574.0" style="-fx-border-style: dotted;" GridPane.rowIndex="2">
                      <children>
                         <Text layoutX="275.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Młotki Gumowe" />
                         <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="16.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
-                        <Button layoutX="290.0" layoutY="91.0" mnemonicParsing="false" onAction="#partsButtonPushed" text="Enter" />
+                        <Button layoutX="290.0" layoutY="91.0" mnemonicParsing="false" onAction="#rubberButtonPushed" text="Enter" />
                      </children>
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-border-style: dotted;" GridPane.columnIndex="1" GridPane.rowIndex="2">
@@ -84,7 +84,7 @@
                               <Image url="@/resources/images/mainPage/spawalniczy.jpeg" />
                            </image></ImageView>
                         <Text layoutX="264.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inne Młotki" />
-                        <Button layoutX="272.0" layoutY="90.0" mnemonicParsing="false" onAction="#partsButtonPushed" text="Enter" />
+                        <Button layoutX="272.0" layoutY="90.0" mnemonicParsing="false" onAction="#otherButtonPushed" text="Enter" />
                      </children>
                   </AnchorPane>
                </children>

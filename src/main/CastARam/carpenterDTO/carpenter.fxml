@@ -38,7 +38,7 @@
                   <Font size="41.0" />
                </font>
             </Label>
-            <Label layoutX="166.0" layoutY="19.0" prefHeight="38.0" prefWidth="113.0" text="PARTS" textFill="WHITE">
+            <Label layoutX="166.0" layoutY="19.0" prefHeight="40.0" prefWidth="295.0" text="Carpenter Hammers" textFill="WHITE">
                <font>
                   <Font name="Constantia" size="32.0" />
                </font>
@@ -56,11 +56,11 @@
             </VBox>
          </children>
       </AnchorPane>
-      <TableView layoutY="76.0" prefHeight="481.0" prefWidth="450.0">
+      <TableView fx:id="tableView" layoutY="76.0" prefHeight="481.0" prefWidth="637.0">
         <columns>
             <TableColumn fx:id="IDColumn" prefWidth="42.0" text="Id" />
           <TableColumn fx:id="nameColumn" prefWidth="108.0" text="Name" />
-          <TableColumn prefWidth="75.0" text="Price" />
+          <TableColumn fx:id="priceColumn" prefWidth="75.0" text="Price" />
             <TableColumn fx:id="materialColumn" prefWidth="75.0" text="Material" />
             <TableColumn fx:id="wageColumn" prefWidth="75.0" text="Wage" />
             <TableColumn fx:id="brandColumn" prefWidth="75.0" text="Brand" />

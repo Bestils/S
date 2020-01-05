@@ -26,7 +26,7 @@ public class Controller implements Initializable {
 @FXML private ImageView Person;
 
 public void partsButtonPushed(ActionEvent  event) throws IOException {
-    Parent tableViewParent = FXMLLoader.load(getClass().getResource("partsDTO/carpenter.fxml"));
+    Parent tableViewParent = FXMLLoader.load(getClass().getResource("partsDTO/parts.fxml"));
     Scene tableViewScene = new Scene(tableViewParent);
 
     Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
@@ -36,7 +36,7 @@ public void partsButtonPushed(ActionEvent  event) throws IOException {
 
 }
     public void rubberButtonPushed(ActionEvent  event) throws IOException {
-        Parent tableViewParent = FXMLLoader.load(getClass().getResource("partsDTO/carpenter.fxml"));
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("carpenterDTO/carpenter.fxml"));
         Scene tableViewScene = new Scene(tableViewParent);
 
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
@@ -66,7 +66,7 @@ public void partsButtonPushed(ActionEvent  event) throws IOException {
 
     }
     public void carpenterButtonPushed(ActionEvent  event) throws IOException {
-        Parent tableViewParent = FXMLLoader.load(getClass().getResource("carpenterDTO/parts.fxml"));
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("carpenterDTO/carpenter.fxml"));
         Scene tableViewScene = new Scene(tableViewParent);
 
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();

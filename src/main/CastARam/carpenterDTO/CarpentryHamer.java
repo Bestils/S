@@ -12,7 +12,7 @@ public class CarpentryHamer extends Hammer {
     SimpleBooleanProperty isLessVibrant;
 
 
-    public CarpentryHamer(int id, double wage, double price, String brand, String name, String material, String typeOfCrawl, String typeOfHead, boolean isLessVibrant) {
+    public CarpentryHamer(Integer id, Double wage, Double price, String brand, String name, String material, String typeOfCrawl, String typeOfHead, Boolean isLessVibrant) {
         super(id, wage, price, brand, name, material);
         this.typeOfCrawl = new SimpleStringProperty(typeOfCrawl);
         this.typeOfHead =new SimpleStringProperty(typeOfHead);

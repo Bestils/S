@@ -34,8 +34,7 @@ public class CarpenterController implements Initializable {
     private TableColumn<CarpentryHamer, String> nameColumn;
     @FXML
     private TableColumn<CarpentryHamer, String> materialColumn;
-
-    @FXML
+@FXML
     private TextField typeOfCrawl;
     @FXML
     private TextField typeOfHead;
@@ -44,7 +43,7 @@ public class CarpenterController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        IDColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, Integer>("ID"));
+        IDColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, Integer>("id"));
         wageColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, Integer>("wage"));
         priceColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, Integer>("price"));
         brandColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, String>("brand"));
@@ -52,6 +51,7 @@ public class CarpenterController implements Initializable {
         materialColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, String>("material"));
 
         tableView.setItems(getCarpenterHammers());
+
 
     }
 
