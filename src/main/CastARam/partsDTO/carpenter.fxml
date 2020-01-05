@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="1149.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.CastARam.carpenterDTO.CarpenterController">
+   <children>
+      <AnchorPane prefHeight="70.0" prefWidth="1149.0" style="-fx-background-color: #232a44;">
+         <children>
+            <ImageView fitHeight="76.0" fitWidth="85.0" layoutX="575.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../resources/images/setingsBar/shopingCart.jpg" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </ImageView>
+            <ImageView fitHeight="53.0" fitWidth="76.0" layoutX="1089.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../resources/images/setingsBar/shop.jpg" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </ImageView>
+            <Label layoutX="952.0" layoutY="9.0" text="Mjolnir" textFill="#aeb1ee">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Label>
+            <Label layoutX="166.0" layoutY="19.0" prefHeight="38.0" prefWidth="113.0" text="PARTS" textFill="WHITE">
+               <font>
+                  <Font name="Constantia" size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="447.0" layoutY="76.0" prefHeight="481.0" prefWidth="703.0">
+         <children>
+            <VBox layoutX="523.0" prefHeight="481.0" prefWidth="178.0">
+               <children>
+                  <ImageView fitHeight="149.0" fitWidth="183.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="149.0" fitWidth="183.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="149.0" fitWidth="183.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <TableView layoutY="76.0" prefHeight="481.0" prefWidth="450.0">
+        <columns>
+            <TableColumn fx:id="IDColumn" prefWidth="42.0" text="Id" />
+          <TableColumn fx:id="nameColumn" prefWidth="108.0" text="Name" />
+          <TableColumn prefWidth="75.0" text="Price" />
+            <TableColumn fx:id="materialColumn" prefWidth="75.0" text="Material" />
+            <TableColumn fx:id="wageColumn" prefWidth="75.0" text="Wage" />
+            <TableColumn fx:id="brandColumn" prefWidth="75.0" text="Brand" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

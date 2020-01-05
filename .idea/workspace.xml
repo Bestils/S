@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="DAOs">
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/Test/FirstController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/Test/SecondController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/Test/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/Test/secondView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/Test/testing.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/jointer.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/parts.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/rubber.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/shoppingCart.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/sledge.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/stone.fxml" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="main almost fully created">
+      <change afterPath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/CarpenterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/CastARam/partsDTO/carpenter.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/CastARam/sledgeHamerDTO/sledge.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/CastARam/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/GumoweDAO/GumowyMlotek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/GumoweDAO/GumowyMlotek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/KamieniarskieDAO/KamieniarskiMlotek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/KamieniarskieDAO/KamieniarskiMlotek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/StolarskieDAO/CarpentryHamerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/StolarskieDAO/CarpentryHamerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/images/setingsBar/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/GumoweDAO/Gietkosci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/rubberDTO/Gietkosci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/GumoweDAO/GumowyMlotek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/rubberDTO/RubberHammer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/Hammer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/Hammer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/KamieniarskieDAO/KamieniarskiMlotek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/stonerDTO/StonerHammer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/StolarskieDAO/CarpentryHamer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/CarpentryHamer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/StolarskieDAO/CarpentryHamerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/StolarskieDAO/images/other.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/images/other.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/Test/FirstController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/Test/SecondController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/Test/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/Test/secondView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/Test/testing.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/UserDAO/AdminService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/UserDAO/Adres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/UserDAO/StandardUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/jointer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/carpenter.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/parts.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/parts.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/rubber.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/rubberDTO/rubber.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/shoppingCart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/shoppingCart.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/sledge.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/partsDTO/parts.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/sledgeHamer/images/SledgeHamer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/sledgeHamerDTO/SledgeHamer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/stone.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/stonerDTO/stone.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +93,8 @@
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -129,7 +139,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/CastARam" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/CastARam/partsDTO" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -142,16 +152,22 @@
       <recent name="main.CastARam.StolarskieDAO" />
       <recent name="CastARam.StolarskieDAO" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam" />
-      <recent name="$PROJECT_DIR$/src/main/CastARam/images" />
-      <recent name="$PROJECT_DIR$/src/main/CastARam/setingsBar/images" />
-      <recent name="$PROJECT_DIR$/src/main/CastARam/StolarskieDAO/images" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\StolarskieDAO" />
+      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\KamieniarskieDAO" />
+      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\sledgeHamer\images" />
+      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\shoppingCart" />
+      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\parts" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.CastARam" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\partsDTO" />
+      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\carpenterDTO" />
       <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam" />
       <recent name="$PROJECT_DIR$/src/main/CastARam/images" />
       <recent name="$PROJECT_DIR$/src/main/CastARam/setingsBar/images" />
@@ -182,7 +198,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.CastARam.GumoweDAO.*" />
+          <option name="PATTERN" value="main.CastARam.rubberDTO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573379878560</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="main almost fully created">
+      <created>1578057171294</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578057171294</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -332,62 +355,77 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="border and button" />
     <MESSAGE value="DAOs" />
-    <option name="LAST_COMMIT_MESSAGE" value="DAOs" />
+    <MESSAGE value="main almost fully created" />
+    <option name="LAST_COMMIT_MESSAGE" value="main almost fully created" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1578002216584">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1578143746074">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578002216583" />
-    <state x="567" y="142" key="CommitChangelistDialog2" timestamp="1578057142542">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578143746074" />
+    <state x="-871" y="351" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578223996479">
+      <screen x="-1360" y="163" width="1360" height="728" />
+    </state>
+    <state x="-871" y="351" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578223996479" />
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578144103986" />
+    <state x="567" y="142" key="CommitChangelistDialog2" timestamp="1578057169746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="567" y="142" key="CommitChangelistDialog2/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578057142542" />
+    <state x="567" y="142" key="CommitChangelistDialog2/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578057169746" />
     <state x="649" y="151" width="438" height="488" key="FileChooserDialogImpl" timestamp="1577922368356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-900" y="269" key="FileChooserDialogImpl/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1577641879676" />
     <state x="649" y="151" width="438" height="488" key="FileChooserDialogImpl/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1577922368356" />
-    <state width="1317" height="160" key="GridCell.Tab.0.bottom" timestamp="1578008250949">
+    <state width="1317" height="112" key="GridCell.Tab.0.bottom" timestamp="1578224236224">
       <screen x="-1360" y="163" width="1360" height="728" />
     </state>
-    <state width="1317" height="160" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578008250949" />
-    <state width="1569" height="160" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578004745686" />
-    <state width="1317" height="160" key="GridCell.Tab.0.center" timestamp="1578008250949">
+    <state width="1317" height="112" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578224236224" />
+    <state width="1877" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578145019669" />
+    <state width="1317" height="112" key="GridCell.Tab.0.center" timestamp="1578224236224">
       <screen x="-1360" y="163" width="1360" height="728" />
     </state>
-    <state width="1317" height="160" key="GridCell.Tab.0.center/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578008250949" />
-    <state width="1569" height="160" key="GridCell.Tab.0.center/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578004745685" />
-    <state width="1317" height="160" key="GridCell.Tab.0.left" timestamp="1578008250948">
+    <state width="1317" height="112" key="GridCell.Tab.0.center/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578224236224" />
+    <state width="1877" height="183" key="GridCell.Tab.0.center/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578145019668" />
+    <state width="1317" height="112" key="GridCell.Tab.0.left" timestamp="1578224236224">
       <screen x="-1360" y="163" width="1360" height="728" />
     </state>
-    <state width="1317" height="160" key="GridCell.Tab.0.left/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578008250948" />
-    <state width="1569" height="160" key="GridCell.Tab.0.left/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578004745685" />
-    <state width="1317" height="160" key="GridCell.Tab.0.right" timestamp="1578008250949">
+    <state width="1317" height="112" key="GridCell.Tab.0.left/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578224236224" />
+    <state width="1877" height="183" key="GridCell.Tab.0.left/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578145019668" />
+    <state width="1317" height="112" key="GridCell.Tab.0.right" timestamp="1578224236224">
       <screen x="-1360" y="163" width="1360" height="728" />
     </state>
-    <state width="1317" height="160" key="GridCell.Tab.0.right/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578008250949" />
-    <state width="1569" height="160" key="GridCell.Tab.0.right/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578004745685" />
+    <state width="1317" height="112" key="GridCell.Tab.0.right/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578224236224" />
+    <state width="1877" height="183" key="GridCell.Tab.0.right/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578145019668" />
     <state x="398" y="122" key="SettingsEditor" timestamp="1577923414005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="398" y="122" key="SettingsEditor/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1577923414005" />
-    <state x="661" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1578056724319">
+    <state x="510" y="280" key="Vcs.Push.Dialog.v2" timestamp="1578057176357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578056724319" />
+    <state x="510" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578057176357" />
+    <state x="661" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1578223321702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578223321702" />
+    <state x="661" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578172694943" />
     <state x="727" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578057155188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="727" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578057155188" />
-    <state x="919" y="154" width="606" height="804" key="find.popup" timestamp="1577923399785">
+    <state x="919" y="154" width="736" height="804" key="find.popup" timestamp="1578127815089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="919" y="154" width="606" height="804" key="find.popup/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1577923399785" />
+    <state x="919" y="154" width="736" height="804" key="find.popup/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578127815089" />
     <state x="230" y="129" key="new project wizard" timestamp="1577922373664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="230" y="129" key="new project wizard/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1577922373664" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1578126871657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578126871657" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1577891605325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

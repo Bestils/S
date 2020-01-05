@@ -1,4 +1,4 @@
-package main.CastARam.GumoweDAO;
+package main.CastARam.rubberDTO;
 
 public enum Gietkosci {
     TWARDY,MIEKKI,SPREZYSTY,REZONUJACY;
