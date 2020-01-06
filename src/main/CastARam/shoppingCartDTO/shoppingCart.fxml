@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="1149.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.CastARam.carpenterDTO.CarpenterController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="1149.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.CastARam.shoppingCartDTO.shoppingCartController">
    <children>
       <AnchorPane prefHeight="70.0" prefWidth="1149.0" style="-fx-background-color: #232a44;">
          <children>
@@ -57,6 +57,6 @@
       </TableView>
       <Label layoutX="1034.0" layoutY="327.0" text="Label" />
       <Label layoutX="1034.0" layoutY="279.0" text="Suma" />
-      <Button layoutX="1023.0" layoutY="372.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="1023.0" layoutY="372.0" mnemonicParsing="false" text="KUP" />
    </children>
 </AnchorPane>

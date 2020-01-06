@@ -100,7 +100,7 @@
                   <Cursor fx:constant="TEXT" />
                </cursor>
             </ImageView>
-            <ImageView fitHeight="53.0" fitWidth="76.0" layoutX="301.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="53.0" fitWidth="76.0" layoutX="301.0" layoutY="8.0" onMouseClicked="#carpenterButtonPushed" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../resources/images/setingsBar/shop.jpg" />
                </image>
