@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="main almost fully created">
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/shoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/ShoppingCart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/CastARam/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/CarpenterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/CarpenterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/carpenter.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/carpenter.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/CastARam/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/partsDTO/parts.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/drillHammerDTO/drill.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/cart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/shoppingCart.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/shoppingCart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/shoppingCart.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/shoppingCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/shoppingCartController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,26 +134,26 @@
       <recent name="main.CastARam.StolarskieDAO" />
       <recent name="CastARam.StolarskieDAO" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO" />
-      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\partsDTO" />
-      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\carpenterDTO" />
-      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam" />
-      <recent name="$PROJECT_DIR$/src/main/CastARam/images" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="main.CastARam.shoppingCartDTO" />
-      <recent name="main.CastARam" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\StolarskieDAO" />
       <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\KamieniarskieDAO" />
       <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\sledgeHamer\images" />
       <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\shoppingCart" />
       <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\parts" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.CastARam.shoppingCartDTO" />
+      <recent name="main.CastARam" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\shoppingCartDTO" />
+      <recent name="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO" />
+      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\partsDTO" />
+      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\carpenterDTO" />
+      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -346,11 +349,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="main almost fully created" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="669" y="232" key="#com.intellij.ide.util.MemberChooser" timestamp="1578240843337">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1578347144183">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="232" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1578240843337" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578143746074" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578347144183" />
     <state x="604" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578240632417">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -368,30 +371,46 @@
     <state x="568" y="152" key="FileChooserDialogImpl/0.0.1680.1050@0.0.1680.1050" timestamp="1578236669139" />
     <state x="-900" y="269" key="FileChooserDialogImpl/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1577641879676" />
     <state x="649" y="151" width="438" height="488" key="FileChooserDialogImpl/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1577922368356" />
-    <state width="1638" height="242" key="GridCell.Tab.0.bottom" timestamp="1578263161081">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1578350896095">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1578263161081" />
     <state width="1317" height="112" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578224236224" />
-    <state width="1877" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578145019669" />
-    <state width="1638" height="242" key="GridCell.Tab.0.center" timestamp="1578263161080">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578350896095" />
+    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1578350896095">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1578263161080" />
     <state width="1317" height="112" key="GridCell.Tab.0.center/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578224236224" />
-    <state width="1877" height="183" key="GridCell.Tab.0.center/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578145019668" />
-    <state width="1638" height="242" key="GridCell.Tab.0.left" timestamp="1578263161079">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578350896095" />
+    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1578350896095">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1578263161079" />
     <state width="1317" height="112" key="GridCell.Tab.0.left/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578224236224" />
-    <state width="1877" height="183" key="GridCell.Tab.0.left/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578145019668" />
-    <state width="1638" height="242" key="GridCell.Tab.0.right" timestamp="1578263161080">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578350896095" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1578350896095">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1578263161080" />
     <state width="1317" height="112" key="GridCell.Tab.0.right/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578224236224" />
-    <state width="1877" height="183" key="GridCell.Tab.0.right/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578145019668" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578350896095" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1578338393468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578338393468" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1578338393468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578338393468" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1578338393468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578338393468" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1578338393468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578338393468" />
     <state x="348" y="123" key="SettingsEditor" timestamp="1578236674612">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -411,14 +430,18 @@
     </state>
     <state x="661" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578223321702" />
     <state x="661" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578172694943" />
-    <state x="727" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578057155188">
+    <state x="936" y="172" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578349643833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="727" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578057155188" />
-    <state x="919" y="154" width="736" height="804" key="find.popup" timestamp="1578127815089">
+    <state x="936" y="172" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578349643833" />
+    <state x="727" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578312138876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="919" y="154" width="736" height="804" key="find.popup/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578127815089" />
+    <state x="727" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578312138876" />
+    <state x="919" y="154" width="736" height="804" key="find.popup" timestamp="1578349751532">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="919" y="154" width="736" height="804" key="find.popup/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578349751532" />
     <state x="230" y="129" key="new project wizard" timestamp="1577922373664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -427,11 +450,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578126871657" />
-    <state x="545" y="227" width="670" height="685" key="search.everywhere.popup" timestamp="1578236432293">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578350606179">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="545" y="227" width="670" height="685" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1578236432293" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1577891605325" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578350606179" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

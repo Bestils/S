@@ -12,9 +12,22 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="1149.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.CastARam.shoppingCartDTO.shoppingCartController">
    <children>
+      <TableView fx:id="tableView" layoutY="76.0" prefHeight="481.0" prefWidth="917.0">
+        <columns>
+            <TableColumn fx:id="IDColumn" prefWidth="42.0" text="Id" />
+          <TableColumn fx:id="nameColumn" prefWidth="108.0" text="Name" />
+          <TableColumn fx:id="priceColumn" prefWidth="75.0" text="Price" />
+            <TableColumn fx:id="materialColumn" prefWidth="75.0" text="Material" />
+            <TableColumn fx:id="wageColumn" prefWidth="75.0" text="Wage" />
+            <TableColumn fx:id="brandColumn" prefWidth="75.0" text="Brand" />
+        </columns>
+      </TableView>
+      <Label layoutX="959.0" layoutY="515.0" text="Label" />
+      <Label layoutX="958.0" layoutY="484.0" text="Suma" />
+      <Button layoutX="1028.0" layoutY="483.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="108.0" text="KUP" />
       <AnchorPane prefHeight="70.0" prefWidth="1149.0" style="-fx-background-color: #232a44;">
          <children>
-            <ImageView fitHeight="76.0" fitWidth="85.0" layoutX="575.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="76.0" fitWidth="85.0" layoutX="640.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../resources/images/setingsBar/shopingCart.jpg" />
                </image>
@@ -38,25 +51,15 @@
                   <Font size="41.0" />
                </font>
             </Label>
-            <Label layoutX="166.0" layoutY="19.0" prefHeight="40.0" prefWidth="295.0" text="Shopping Cart" textFill="WHITE">
+            <Label layoutX="166.0" layoutY="19.0" prefHeight="40.0" prefWidth="295.0" text="Carpenter Hammers" textFill="WHITE">
                <font>
                   <Font name="Constantia" size="32.0" />
                </font>
             </Label>
+            <Button layoutX="900.0" layoutY="3.0" mnemonicParsing="false" onAction="#main" prefHeight="67.0" prefWidth="52.0" text="MAIN" />
+            <Button layoutX="599.0" layoutY="5.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="52.0" text="CART" />
          </children>
       </AnchorPane>
-      <TableView fx:id="tableView" layoutY="76.0" prefHeight="481.0" prefWidth="917.0">
-        <columns>
-            <TableColumn fx:id="IDColumn" prefWidth="42.0" text="Id" />
-          <TableColumn fx:id="nameColumn" prefWidth="108.0" text="Name" />
-          <TableColumn fx:id="priceColumn" prefWidth="75.0" text="Price" />
-            <TableColumn fx:id="materialColumn" prefWidth="75.0" text="Material" />
-            <TableColumn fx:id="wageColumn" prefWidth="75.0" text="Wage" />
-            <TableColumn fx:id="brandColumn" prefWidth="75.0" text="Brand" />
-        </columns>
-      </TableView>
-      <Label layoutX="1034.0" layoutY="327.0" text="Label" />
-      <Label layoutX="1034.0" layoutY="279.0" text="Suma" />
-      <Button layoutX="1023.0" layoutY="372.0" mnemonicParsing="false" text="KUP" />
+      <Button layoutX="979.0" layoutY="100.0" mnemonicParsing="false" onAction="#deleteItem" prefHeight="25.0" prefWidth="138.0" text="Delete Item" />
    </children>
 </AnchorPane>

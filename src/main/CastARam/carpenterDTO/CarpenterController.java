@@ -5,23 +5,32 @@ import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.SelectionMode;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Stage;
+import main.CastARam.Hammer;
+import main.CastARam.shoppingCartDTO.ShoppingCart;
+import main.CastARam.shoppingCartDTO.shoppingCartController;
 
-import javax.xml.soap.Text;
+import java.io.IOException;
 import java.net.URL;
-import java.util.Observable;
 import java.util.ResourceBundle;
 
 public class CarpenterController implements Initializable {
 
+    private  ShoppingCart cart;
     @FXML
     private TableView<CarpentryHamer> tableView;
-
     @FXML
     private TableColumn<CarpentryHamer, Integer> IDColumn;
     @FXML
@@ -34,7 +43,7 @@ public class CarpenterController implements Initializable {
     private TableColumn<CarpentryHamer, String> nameColumn;
     @FXML
     private TableColumn<CarpentryHamer, String> materialColumn;
-@FXML
+    @FXML
     private TextField typeOfCrawl;
     @FXML
     private TextField typeOfHead;
@@ -50,8 +59,8 @@ public class CarpenterController implements Initializable {
         nameColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, String>("name"));
         materialColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, String>("material"));
 
+ //       tableView.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE); to enable multiple adding items
         tableView.setItems(getCarpenterHammers());
-
 
     }
 
@@ -65,4 +74,30 @@ public class CarpenterController implements Initializable {
 
 return hamers;
     }
+
+    public void changeSceneToDetailedPersonView(ActionEvent event) throws IOException
+    {
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("../shoppingCartDTO/shoppingCart.fxml"));
+        Parent tableViewParent = loader.load();
+
+        Scene tableViewScene = new Scene(tableViewParent);
+
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        //access the controller and call a method
+        shoppingCartController controller = loader.getController();
+        cart.addItem(tableView.getSelectionModel().getSelectedItem());
+        controller.initData(cart);
+
+        window.setScene(tableViewScene);
+        window.show();
+    }
+
+
+    public void initData(ShoppingCart cart){
+        this.cart=cart;
+    }
+
+
 }
