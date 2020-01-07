@@ -1,4 +1,4 @@
-package main.CastARam.carpenterDTO;
+package main.CastARam.stoneDTO;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -9,40 +9,41 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.*;
+import javafx.scene.control.Label;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 import main.CastARam.Controller;
 import main.CastARam.shoppingCartDTO.ShoppingCart;
 import main.CastARam.shoppingCartDTO.shoppingCartController;
+
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class CarpenterController implements Initializable {
+public class StoneController implements Initializable {
 
     private ShoppingCart cart;
     @FXML
-    private TableView<CarpentryHamer> tableView;
+    private TableView<StoneHammer> tableView;
     @FXML
-    private TableColumn<CarpentryHamer, Integer> IDColumn;
+    private TableColumn<StoneHammer, Integer> IDColumn;
     @FXML
-    private TableColumn<CarpentryHamer, Integer> wageColumn;
+    private TableColumn<StoneHammer, Integer> wageColumn;
     @FXML
-    private TableColumn<CarpentryHamer, Integer> priceColumn;
+    private TableColumn<StoneHammer, Integer> priceColumn;
     @FXML
-    private TableColumn<CarpentryHamer, String> brandColumn;
+    private TableColumn<StoneHammer, String> brandColumn;
     @FXML
-    private TableColumn<CarpentryHamer, String> nameColumn;
+    private TableColumn<StoneHammer, String> nameColumn;
     @FXML
-    private TableColumn<CarpentryHamer, String> materialColumn;
+    private TableColumn<StoneHammer, String> materialColumn;
     @FXML
-    private Label typeOfCrawl;
+    private Label isAmplified;
     @FXML
-    private Label typeOfHead;
-    @FXML
-    private Label isLessVibrant;
+    private Label isHardened;
     @FXML
     private Label price;
     @FXML
@@ -50,26 +51,27 @@ public class CarpenterController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        IDColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, Integer>("id"));
-        wageColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, Integer>("wage"));
-        priceColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, Integer>("price"));
-        brandColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, String>("brand"));
-        nameColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, String>("name"));
-        materialColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, String>("material"));
+        IDColumn.setCellValueFactory(new PropertyValueFactory<StoneHammer, Integer>("id"));
+        wageColumn.setCellValueFactory(new PropertyValueFactory<StoneHammer, Integer>("wage"));
+        priceColumn.setCellValueFactory(new PropertyValueFactory<StoneHammer, Integer>("price"));
+        brandColumn.setCellValueFactory(new PropertyValueFactory<StoneHammer, String>("brand"));
+        nameColumn.setCellValueFactory(new PropertyValueFactory<StoneHammer, String>("name"));
+        materialColumn.setCellValueFactory(new PropertyValueFactory<StoneHammer, String>("material"));
 
         //       tableView.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE); to enable multiple adding items
         tableView.setItems(getCarpenterHammers());
 
     }
 
-    public ObservableList<CarpentryHamer> getCarpenterHammers() {
-        ObservableList<CarpentryHamer> hamers = FXCollections.observableArrayList();
+    public ObservableList<StoneHammer> getCarpenterHammers() {
+        ObservableList<StoneHammer> hamers = FXCollections.observableArrayList();
 
-        hamers.add(new CarpentryHamer(000001, 5.14, 245.6, "PICKARD", "Normal PICKARD hammer", "Stal", "resources/images/carpenter/1.png","Long and short strait", "Solid square", false,"Carpenter"));
-        hamers.add(new CarpentryHamer(000002, 5.60, 460.87, "OSCR", "Special  Carbon hammer", "Carbon/Steel", "resources/images/carpenter/2.png","Double Long Picker curved", "Rounded", true,"Carpenter"));
-        hamers.add(new CarpentryHamer(000003,  2.76, 405.6, "GEDORE", "Smaller Aluminium GEDORE hammer", "Aluminium", "resources/images/carpenter/3.png","Long and short strait", "Solid square", false,"Carpenter"));
-        hamers.add(new CarpentryHamer(000004, 3.14, 505.6, "GEDORE", "Bigger Aluminium GEDORE hammer", "Aluminium", "resources/images/carpenter/4.png","Long and short strait", "Solid square", false,"Carpenter"));
-        hamers.add(new CarpentryHamer(000005, 2.15, 1205.6, "BANCO", "Perfect carpenter hammer", "Titanium", "resources/images/carpenter/5.png"," Long and short strait", "Solid square", true,"Carpenter"));
+        hamers.add(new StoneHammer(9001, 8.10, 150.50, "PICARD", "Short splitting hammer", "Iron", "resources/images/stone/1.png",false,true,"Stone"));
+        hamers.add(new StoneHammer(9002, 4.60, 760.87, "STANLEY", "Stanley Titanium hammer", "Steel/Titanium", "resources/images/stone/2.png",true,true,"Stone"));
+        hamers.add(new StoneHammer(9003, 10.25, 205.6, "PICARD", "Long splitting hammer", "Iron", "resources/images/stone/3.png",true,true,"Stone"));
+        hamers.add(new StoneHammer(9004, 4.14, 105.6, "PICARD", "Normal small hammer", "Iron", "resources/images/stone/4.png",false,false,"Stone"));
+        hamers.add(new StoneHammer(9005, 7.14, 175.6, "MARKSMAN", "Nonrmal hammer", "Iron", "resources/images/stone/5.png",true,true,"Stone"));
+
 
         return hamers;
     }
@@ -130,10 +132,11 @@ public class CarpenterController implements Initializable {
     }
 
     public void showItem(ActionEvent event) throws IOException {
-CarpentryHamer hammer = tableView.getSelectionModel().getSelectedItem();
-     typeOfCrawl.setText(hammer.getTypeOfCrawl());
-       typeOfHead.setText(hammer.getTypeOfHead());
-     isLessVibrant.setText(Boolean.toString(hammer.isLessVibrantProperty().get()));
+        StoneHammer hammer = tableView.getSelectionModel().getSelectedItem();
+        isHardened.setText(Boolean.toString(hammer.isHardenedProperty().get()));
+        isAmplified.setText(Boolean.toString(hammer.isAmplifiedProperty().get()));
+
+
       price.setText(Double.toString(hammer.getPrice()));
 photo.setImage(hammer.getPhoto());
       //TODO: Maybe change the labels to empty when nothing is picked

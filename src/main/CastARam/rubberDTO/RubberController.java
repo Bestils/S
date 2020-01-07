@@ -1,4 +1,4 @@
-package main.CastARam.carpenterDTO;
+package main.CastARam.rubberDTO;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -9,40 +9,39 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.*;
+import javafx.scene.control.Label;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 import main.CastARam.Controller;
 import main.CastARam.shoppingCartDTO.ShoppingCart;
 import main.CastARam.shoppingCartDTO.shoppingCartController;
+
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class CarpenterController implements Initializable {
+public class RubberController implements Initializable {
 
     private ShoppingCart cart;
     @FXML
-    private TableView<CarpentryHamer> tableView;
+    private TableView<RubberHammer> tableView;
     @FXML
-    private TableColumn<CarpentryHamer, Integer> IDColumn;
+    private TableColumn<RubberHammer, Integer> IDColumn;
     @FXML
-    private TableColumn<CarpentryHamer, Integer> wageColumn;
+    private TableColumn<RubberHammer, Integer> wageColumn;
     @FXML
-    private TableColumn<CarpentryHamer, Integer> priceColumn;
+    private TableColumn<RubberHammer, Integer> priceColumn;
     @FXML
-    private TableColumn<CarpentryHamer, String> brandColumn;
+    private TableColumn<RubberHammer, String> brandColumn;
     @FXML
-    private TableColumn<CarpentryHamer, String> nameColumn;
+    private TableColumn<RubberHammer, String> nameColumn;
     @FXML
-    private TableColumn<CarpentryHamer, String> materialColumn;
+    private TableColumn<RubberHammer, String> materialColumn;
     @FXML
-    private Label typeOfCrawl;
-    @FXML
-    private Label typeOfHead;
-    @FXML
-    private Label isLessVibrant;
+    private Label headDiameter;
     @FXML
     private Label price;
     @FXML
@@ -50,26 +49,27 @@ public class CarpenterController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        IDColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, Integer>("id"));
-        wageColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, Integer>("wage"));
-        priceColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, Integer>("price"));
-        brandColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, String>("brand"));
-        nameColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, String>("name"));
-        materialColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, String>("material"));
+        IDColumn.setCellValueFactory(new PropertyValueFactory<RubberHammer, Integer>("id"));
+        wageColumn.setCellValueFactory(new PropertyValueFactory<RubberHammer, Integer>("wage"));
+        priceColumn.setCellValueFactory(new PropertyValueFactory<RubberHammer, Integer>("price"));
+        brandColumn.setCellValueFactory(new PropertyValueFactory<RubberHammer, String>("brand"));
+        nameColumn.setCellValueFactory(new PropertyValueFactory<RubberHammer, String>("name"));
+        materialColumn.setCellValueFactory(new PropertyValueFactory<RubberHammer, String>("material"));
 
         //       tableView.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE); to enable multiple adding items
         tableView.setItems(getCarpenterHammers());
 
     }
 
-    public ObservableList<CarpentryHamer> getCarpenterHammers() {
-        ObservableList<CarpentryHamer> hamers = FXCollections.observableArrayList();
+    public ObservableList<RubberHammer> getCarpenterHammers() {
+        ObservableList<RubberHammer> hamers = FXCollections.observableArrayList();
 
-        hamers.add(new CarpentryHamer(000001, 5.14, 245.6, "PICKARD", "Normal PICKARD hammer", "Stal", "resources/images/carpenter/1.png","Long and short strait", "Solid square", false,"Carpenter"));
-        hamers.add(new CarpentryHamer(000002, 5.60, 460.87, "OSCR", "Special  Carbon hammer", "Carbon/Steel", "resources/images/carpenter/2.png","Double Long Picker curved", "Rounded", true,"Carpenter"));
-        hamers.add(new CarpentryHamer(000003,  2.76, 405.6, "GEDORE", "Smaller Aluminium GEDORE hammer", "Aluminium", "resources/images/carpenter/3.png","Long and short strait", "Solid square", false,"Carpenter"));
-        hamers.add(new CarpentryHamer(000004, 3.14, 505.6, "GEDORE", "Bigger Aluminium GEDORE hammer", "Aluminium", "resources/images/carpenter/4.png","Long and short strait", "Solid square", false,"Carpenter"));
-        hamers.add(new CarpentryHamer(000005, 2.15, 1205.6, "BANCO", "Perfect carpenter hammer", "Titanium", "resources/images/carpenter/5.png"," Long and short strait", "Solid square", true,"Carpenter"));
+        hamers.add(new RubberHammer(300001, 3.14, 245.46, "TEKTON", "Birch handle", "Birch", "resources/images/rubber/1.png",13,"rubber"));
+        hamers.add(new RubberHammer(300002, 6.60, 260.87, "STANLEY", "Steel hande", "Steel", "resources/images/rubber/2.png",54,"rubber"));
+        hamers.add(new RubberHammer(300003, 5.18, 112.36, "GEDORE", "Mix woods handle", "Mix", "resources/images/rubber/3.png",67,"rubber"));
+        hamers.add(new RubberHammer(300004, 4.40, 145.26, "KENEDY", "Nut handle", "Nut", "resources/images/rubber/4.png",42,"rubber"));
+        hamers.add(new RubberHammer(300004, 3.23, 235.16, "STANLEY", "New technology of head ", "Plastic/Silicon", "resources/images/rubber/5.png",42,"rubber"));
+        hamers.add(new RubberHammer(300005, 4.41, 145.56, "PROVE", "Oak handle", "Oak", "resources/images/rubber/6.png",23,"rubber"));
 
         return hamers;
     }
@@ -130,10 +130,9 @@ public class CarpenterController implements Initializable {
     }
 
     public void showItem(ActionEvent event) throws IOException {
-CarpentryHamer hammer = tableView.getSelectionModel().getSelectedItem();
-     typeOfCrawl.setText(hammer.getTypeOfCrawl());
-       typeOfHead.setText(hammer.getTypeOfHead());
-     isLessVibrant.setText(Boolean.toString(hammer.isLessVibrantProperty().get()));
+        RubberHammer hammer = tableView.getSelectionModel().getSelectedItem();
+        headDiameter.setText(Integer.toString(hammer.getHeadDiameter()));
+
       price.setText(Double.toString(hammer.getPrice()));
 photo.setImage(hammer.getPhoto());
       //TODO: Maybe change the labels to empty when nothing is picked

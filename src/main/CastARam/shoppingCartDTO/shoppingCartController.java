@@ -9,11 +9,11 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.SelectionMode;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 import main.CastARam.Controller;
 import main.CastARam.Hammer;
@@ -42,7 +42,12 @@ public class shoppingCartController implements Initializable {
     private TableColumn<Hammer, String> nameColumn;
     @FXML
     private TableColumn<Hammer, String> materialColumn;
-
+    @FXML
+    private TableColumn<Hammer, String> typeColumn;
+    @FXML
+    private ImageView photo;
+    @FXML
+    private Label name;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         IDColumn.setCellValueFactory(new PropertyValueFactory<Hammer, Integer>("id"));
@@ -51,6 +56,7 @@ public class shoppingCartController implements Initializable {
         brandColumn.setCellValueFactory(new PropertyValueFactory<Hammer, String>("brand"));
         nameColumn.setCellValueFactory(new PropertyValueFactory<Hammer, String>("name"));
         materialColumn.setCellValueFactory(new PropertyValueFactory<Hammer, String>("material"));
+        typeColumn.setCellValueFactory(new PropertyValueFactory<Hammer, String>("type"));
 
         tableView.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
 
@@ -61,6 +67,13 @@ public class shoppingCartController implements Initializable {
        this.cart=shoppingCart;
         tableView.setItems( cart.getCartItems());
     }
+    public void showPhoto(ActionEvent event) throws IOException {
+        Hammer hammer = tableView.getSelectionModel().getSelectedItem();
+        photo.setImage(hammer.getPhoto());
+        name.setText(hammer.getName());
+
+    }
+
     public void main(ActionEvent event) throws IOException
     {
         FXMLLoader loader = new FXMLLoader();
@@ -84,4 +97,5 @@ public class shoppingCartController implements Initializable {
             cart.getCartItems().remove(hammer);
         }
     }
+
 }

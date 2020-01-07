@@ -3,20 +3,45 @@ package main.CastARam;
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
+import javafx.scene.image.Image;
 
 public abstract class Hammer {
 
-    SimpleIntegerProperty id;
-    SimpleDoubleProperty wage,price;
-    SimpleStringProperty brand,name,material;
+    private SimpleIntegerProperty id;
+    private SimpleDoubleProperty wage,price;
+    private SimpleStringProperty brand,name,material,type;
+    private Image photo;
 
-    public Hammer(int id, double wage, double price, String brand, String name,  String material) {
+
+    public Hammer(int id, double wage, double price, String brand, String name,  String material,String photo,String type) {
         this.id = new   SimpleIntegerProperty(id);
         this.wage =new SimpleDoubleProperty(wage);
         this.price =new SimpleDoubleProperty(price);
         this.brand =new SimpleStringProperty(brand);
         this.name = new SimpleStringProperty(name);
         this.material =new SimpleStringProperty(material);
+        this.photo = new Image(photo);
+        this.type = new SimpleStringProperty(type);
+    }
+
+    public String getType() {
+        return type.get();
+    }
+
+    public SimpleStringProperty typeProperty() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type.set(type);
+    }
+
+    public Image getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(Image photo) {
+        this.photo = photo;
     }
 
     public int getId() {

@@ -12,9 +12,11 @@ import javafx.stage.Stage;
 import javax.swing.text.html.ImageView;
 import javafx.event.ActionEvent;
 import main.CastARam.carpenterDTO.CarpenterController;
-import main.CastARam.carpenterDTO.CarpentryHamer;
+import main.CastARam.rubberDTO.RubberController;
 import main.CastARam.shoppingCartDTO.ShoppingCart;
 import main.CastARam.shoppingCartDTO.shoppingCartController;
+import main.CastARam.sledgeDTO.SledgeController;
+import main.CastARam.stoneDTO.StoneController;
 
 import java.io.IOException;
 import java.net.URL;
@@ -63,10 +65,18 @@ public void partsButtonPushed(ActionEvent  event) throws IOException {
     }
 
     public void rubberButtonPushed(ActionEvent  event) throws IOException {
-        Parent tableViewParent = FXMLLoader.load(getClass().getResource("shoppingCartDTO/shoppingCart.fxml"));
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("rubberDTO/rubber.fxml"));
+        Parent tableViewParent = loader.load();
+
         Scene tableViewScene = new Scene(tableViewParent);
 
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        //access the controller and call a method
+        RubberController controller = loader.getController();
+
+        controller.initData(cart);
 
         window.setScene(tableViewScene);
         window.show();
@@ -74,21 +84,36 @@ public void partsButtonPushed(ActionEvent  event) throws IOException {
     }
 
     public void sledgeButtonPushed(ActionEvent  event) throws IOException {
-        Parent tableViewParent = FXMLLoader.load(getClass().getResource("drillHammerDTO/drill.fxml"));
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("sledgeDTO/sledge.fxml"));
+        Parent tableViewParent = loader.load();
+
         Scene tableViewScene = new Scene(tableViewParent);
 
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        //access the controller and call a method
+        SledgeController controller = loader.getController();
+
+        controller.initData(cart);
 
         window.setScene(tableViewScene);
         window.show();
-
     }
 
     public void stoneButtonPushed(ActionEvent  event) throws IOException {
-        Parent tableViewParent = FXMLLoader.load(getClass().getResource("carpenterDTO/carpenter.fxml"));
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("stoneDTO/stone.fxml"));
+        Parent tableViewParent = loader.load();
+
         Scene tableViewScene = new Scene(tableViewParent);
 
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        //access the controller and call a method
+        StoneController controller = loader.getController();
+
+        controller.initData(cart);
 
         window.setScene(tableViewScene);
         window.show();
@@ -108,16 +133,6 @@ public void partsButtonPushed(ActionEvent  event) throws IOException {
         CarpenterController controller = loader.getController();
 
         controller.initData(cart);
-
-        window.setScene(tableViewScene);
-        window.show();
-    }
-
-    public void otherButtonPushed(ActionEvent  event) throws IOException {
-        Parent tableViewParent = FXMLLoader.load(getClass().getResource("drillHammerDTO/drill.fxml"));
-        Scene tableViewScene = new Scene(tableViewParent);
-
-        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
 
         window.setScene(tableViewScene);
         window.show();

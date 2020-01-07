@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="1149.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.CastARam.rubberDTO.RubberController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="1149.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.CastARam.stoneDTO.StoneController">
    <children>
       <AnchorPane prefHeight="70.0" prefWidth="1149.0" style="-fx-background-color: #232a44;">
          <children>
@@ -38,28 +38,13 @@
                   <Font size="41.0" />
                </font>
             </Label>
-            <Label layoutX="166.0" layoutY="19.0" prefHeight="40.0" prefWidth="295.0" text="Rubber Hammers" textFill="WHITE">
+            <Label layoutX="166.0" layoutY="19.0" prefHeight="40.0" prefWidth="295.0" text="Stone Hammers" textFill="WHITE">
                <font>
                   <Font name="Constantia" size="32.0" />
                </font>
             </Label>
             <Button layoutX="900.0" layoutY="3.0" mnemonicParsing="false" onAction="#main" prefHeight="67.0" prefWidth="52.0" text="MAIN" />
             <Button layoutX="599.0" layoutY="5.0" mnemonicParsing="false" onAction="#goToCart" prefHeight="67.0" prefWidth="52.0" text="CART" />
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutX="575.0" layoutY="76.0" prefHeight="481.0" prefWidth="559.0">
-         <children>
-            <Button layoutX="276.0" layoutY="429.0" mnemonicParsing="false" onAction="#addToCart" prefHeight="40.0" prefWidth="225.0" text="Add to cart" />
-            <ImageView fx:id="photo" fitHeight="316.0" fitWidth="453.0" layoutX="79.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true" />
-            <Label layoutX="254.0" layoutY="360.0" text="Head diameter">
-               <font>
-                  <Font name="System Bold" size="16.0" />
-               </font>
-            </Label>
-            <Label fx:id="headDiameter" layoutX="389.0" layoutY="364.0" prefHeight="17.0" prefWidth="0.0" />
-            <Label fx:id="price" layoutX="195.0" layoutY="433.0" />
-            <Label layoutX="120.0" layoutY="433.0" text="Price" />
-            <Button mnemonicParsing="false" onAction="#showItem" prefHeight="481.0" prefWidth="52.0" text="SHOW" />
          </children>
       </AnchorPane>
       <TableView fx:id="tableView" layoutY="76.0" prefHeight="481.0" prefWidth="572.0">
@@ -72,5 +57,26 @@
             <TableColumn fx:id="brandColumn" prefWidth="123.0" text="Brand" />
         </columns>
       </TableView>
+      <AnchorPane layoutX="575.0" layoutY="76.0" prefHeight="481.0" prefWidth="572.0">
+         <children>
+            <Button layoutX="276.0" layoutY="429.0" mnemonicParsing="false" onAction="#addToCart" prefHeight="40.0" prefWidth="225.0" text="Add to cart" />
+            <ImageView fx:id="photo" fitHeight="316.0" fitWidth="453.0" layoutX="89.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="441.0" layoutY="340.0" text="Is Hardened">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="69.0" layoutY="340.0" text="Is Amplified">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="isHardened" layoutX="471.0" layoutY="385.0" />
+            <Label fx:id="isAmplified" layoutX="100.0" layoutY="385.0" />
+            <Label fx:id="price" layoutX="195.0" layoutY="433.0" />
+            <Label layoutX="120.0" layoutY="433.0" text="Price" />
+            <Button mnemonicParsing="false" onAction="#showItem" prefHeight="481.0" prefWidth="52.0" text="SHOW" />
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>

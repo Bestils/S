@@ -1,4 +1,4 @@
-package main.CastARam.carpenterDTO;
+package main.CastARam.sledgeDTO;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -9,40 +9,43 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.*;
+import javafx.scene.control.Label;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 import main.CastARam.Controller;
 import main.CastARam.shoppingCartDTO.ShoppingCart;
 import main.CastARam.shoppingCartDTO.shoppingCartController;
+
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class CarpenterController implements Initializable {
+public class SledgeController implements Initializable {
 
     private ShoppingCart cart;
     @FXML
-    private TableView<CarpentryHamer> tableView;
+    private TableView<SledgeHammer> tableView;
     @FXML
-    private TableColumn<CarpentryHamer, Integer> IDColumn;
+    private TableColumn<SledgeHammer, Integer> IDColumn;
     @FXML
-    private TableColumn<CarpentryHamer, Integer> wageColumn;
+    private TableColumn<SledgeHammer, Integer> wageColumn;
     @FXML
-    private TableColumn<CarpentryHamer, Integer> priceColumn;
+    private TableColumn<SledgeHammer, Integer> priceColumn;
     @FXML
-    private TableColumn<CarpentryHamer, String> brandColumn;
+    private TableColumn<SledgeHammer, String> brandColumn;
     @FXML
-    private TableColumn<CarpentryHamer, String> nameColumn;
+    private TableColumn<SledgeHammer, String> nameColumn;
     @FXML
-    private TableColumn<CarpentryHamer, String> materialColumn;
+    private TableColumn<SledgeHammer, String> materialColumn;
     @FXML
-    private Label typeOfCrawl;
+    private Label handleDiameter;
     @FXML
-    private Label typeOfHead;
+    private Label headWidth;
     @FXML
-    private Label isLessVibrant;
+    private Label headLength;
     @FXML
     private Label price;
     @FXML
@@ -50,26 +53,27 @@ public class CarpenterController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        IDColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, Integer>("id"));
-        wageColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, Integer>("wage"));
-        priceColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, Integer>("price"));
-        brandColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, String>("brand"));
-        nameColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, String>("name"));
-        materialColumn.setCellValueFactory(new PropertyValueFactory<CarpentryHamer, String>("material"));
+        IDColumn.setCellValueFactory(new PropertyValueFactory<SledgeHammer, Integer>("id"));
+        wageColumn.setCellValueFactory(new PropertyValueFactory<SledgeHammer, Integer>("wage"));
+        priceColumn.setCellValueFactory(new PropertyValueFactory<SledgeHammer, Integer>("price"));
+        brandColumn.setCellValueFactory(new PropertyValueFactory<SledgeHammer, String>("brand"));
+        nameColumn.setCellValueFactory(new PropertyValueFactory<SledgeHammer, String>("name"));
+        materialColumn.setCellValueFactory(new PropertyValueFactory<SledgeHammer, String>("material"));
 
         //       tableView.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE); to enable multiple adding items
         tableView.setItems(getCarpenterHammers());
 
     }
 
-    public ObservableList<CarpentryHamer> getCarpenterHammers() {
-        ObservableList<CarpentryHamer> hamers = FXCollections.observableArrayList();
+    public ObservableList<SledgeHammer> getCarpenterHammers() {
+        ObservableList<SledgeHammer> hamers = FXCollections.observableArrayList();
 
-        hamers.add(new CarpentryHamer(000001, 5.14, 245.6, "PICKARD", "Normal PICKARD hammer", "Stal", "resources/images/carpenter/1.png","Long and short strait", "Solid square", false,"Carpenter"));
-        hamers.add(new CarpentryHamer(000002, 5.60, 460.87, "OSCR", "Special  Carbon hammer", "Carbon/Steel", "resources/images/carpenter/2.png","Double Long Picker curved", "Rounded", true,"Carpenter"));
-        hamers.add(new CarpentryHamer(000003,  2.76, 405.6, "GEDORE", "Smaller Aluminium GEDORE hammer", "Aluminium", "resources/images/carpenter/3.png","Long and short strait", "Solid square", false,"Carpenter"));
-        hamers.add(new CarpentryHamer(000004, 3.14, 505.6, "GEDORE", "Bigger Aluminium GEDORE hammer", "Aluminium", "resources/images/carpenter/4.png","Long and short strait", "Solid square", false,"Carpenter"));
-        hamers.add(new CarpentryHamer(000005, 2.15, 1205.6, "BANCO", "Perfect carpenter hammer", "Titanium", "resources/images/carpenter/5.png"," Long and short strait", "Solid square", true,"Carpenter"));
+        hamers.add(new SledgeHammer(10001, 16.15, 945.6, "GROL", "Extremly Strong and resist", "Steel", "resources/images/Sledge/1.png",13,24,175,"Sledge"));
+        hamers.add(new SledgeHammer(10002, 10.60, 350.87, "MARKSMAN", "One hand destroyer ", "Carbon/Iron", "resources/images/Sledge/2.png",14,24,75,"Sledge"));
+        hamers.add(new SledgeHammer(10003, 19.10, 405.6, "STANLEY", "Normal Kenedy hammer", "Steel/Polyester", "resources/images/Sledge/3.png",27,14,195,"Sledge"));
+        hamers.add(new SledgeHammer(10004, 5.45, 105.6, "KENEDY", "Normal wooden handled", "Iron", "resources/images/Sledge/4.png",22,40,105,"Sledge"));
+        hamers.add(new SledgeHammer(10005, 13.44, 195.6, "UPREA", "Long wooden handled", "Iron", "resources/images/Sledge/5.png",12,34,189,"Sledge"));
+        hamers.add(new SledgeHammer(10006, 4.15, 505.6, "GROL", "Special Wall destroyer", "Steel/Copper", "resources/images/Sledge/6.png",10,18,40,"Sledge"));
 
         return hamers;
     }
@@ -130,10 +134,11 @@ public class CarpenterController implements Initializable {
     }
 
     public void showItem(ActionEvent event) throws IOException {
-CarpentryHamer hammer = tableView.getSelectionModel().getSelectedItem();
-     typeOfCrawl.setText(hammer.getTypeOfCrawl());
-       typeOfHead.setText(hammer.getTypeOfHead());
-     isLessVibrant.setText(Boolean.toString(hammer.isLessVibrantProperty().get()));
+        SledgeHammer hammer = tableView.getSelectionModel().getSelectedItem();
+        headLength.setText(Integer.toString(hammer.getHeadLenght()));
+        handleDiameter.setText(Integer.toString(hammer.getHandleLength()));
+        headWidth.setText(Integer.toString(hammer.getHeadWidth()));
+
       price.setText(Double.toString(hammer.getPrice()));
 photo.setImage(hammer.getPhoto());
       //TODO: Maybe change the labels to empty when nothing is picked
