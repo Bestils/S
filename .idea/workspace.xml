@@ -2,53 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="main almost fully created">
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/rubberDTO/RubberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/sledgeDTO/SledgeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/sledgeDTO/SledgeHammer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/sledgeDTO/sledge.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/stoneDTO/StoneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/stoneDTO/StoneHammer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CastARam/stoneDTO/stone.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/carpenter/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/carpenter/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/carpenter/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/carpenter/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/carpenter/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/rubber/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/rubber/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/rubber/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/rubber/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/rubber/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/rubber/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/sledge/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/sledge/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/sledge/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/sledge/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/sledge/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/stone/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/stone/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/stone/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/stone/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/stone/5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/Hammer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/Hammer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/CarpenterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/CarpenterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/CarpentryHamer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/CarpentryHamer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/carpenter.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/carpenter.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/images/other.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/drillHammerDTO/drill.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/rubberDTO/Gietkosci.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/rubberDTO/RubberHammer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/rubberDTO/RubberHammer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/rubberDTO/rubber.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/rubberDTO/rubber.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/shoppingCart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/shoppingCart.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/shoppingCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/shoppingCartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/sledgeHamerDTO/SledgeHamer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/sledgeHamerDTO/sledge.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/stonerDTO/StonerHammer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CastARam/stonerDTO/stone.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/rubberDTO/RubberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/rubberDTO/RubberController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -369,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578257464941</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="main almost fully created">
+      <created>1578433298561</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578433298561</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -406,41 +369,41 @@
     <state x="604" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1578240632417" />
     <state x="-871" y="351" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578223996479" />
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578144103986" />
-    <state x="567" y="142" key="CommitChangelistDialog2" timestamp="1578350930396">
+    <state x="567" y="142" key="CommitChangelistDialog2" timestamp="1578433295971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="496" y="143" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1578257464759" />
-    <state x="567" y="142" key="CommitChangelistDialog2/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578350930396" />
+    <state x="567" y="142" key="CommitChangelistDialog2/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578433295971" />
     <state x="649" y="151" width="438" height="488" key="FileChooserDialogImpl" timestamp="1578429883151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="568" y="152" key="FileChooserDialogImpl/0.0.1680.1050@0.0.1680.1050" timestamp="1578236669139" />
     <state x="-900" y="269" key="FileChooserDialogImpl/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1577641879676" />
     <state x="649" y="151" width="438" height="488" key="FileChooserDialogImpl/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578429883151" />
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1578431902328">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1578433406078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1578263161081" />
     <state width="1317" height="112" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578224236224" />
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578431902328" />
-    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1578431902327">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578433406078" />
+    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1578433406077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1578263161080" />
     <state width="1317" height="112" key="GridCell.Tab.0.center/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578224236224" />
-    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578431902327" />
-    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1578431902327">
+    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578433406077" />
+    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1578433406077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1578263161079" />
     <state width="1317" height="112" key="GridCell.Tab.0.left/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578224236224" />
-    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578431902327" />
-    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1578431902327">
+    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578433406077" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1578433406077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1578263161080" />
     <state width="1317" height="112" key="GridCell.Tab.0.right/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578224236224" />
-    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578431902327" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578433406077" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1578423686602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -466,10 +429,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578430765469" />
-    <state x="690" y="447" key="VCS.ChangelistChooser" timestamp="1578259656328">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="789" y="443" key="VCS.ChangelistChooser" timestamp="1578433302150">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="447" key="VCS.ChangelistChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1578259656328" />
+    <state x="789" y="443" key="VCS.ChangelistChooser/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578433302150" />
     <state x="510" y="280" key="Vcs.Push.Dialog.v2" timestamp="1578350933032">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

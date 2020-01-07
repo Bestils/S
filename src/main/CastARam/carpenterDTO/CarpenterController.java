@@ -65,11 +65,11 @@ public class CarpenterController implements Initializable {
     public ObservableList<CarpentryHamer> getCarpenterHammers() {
         ObservableList<CarpentryHamer> hamers = FXCollections.observableArrayList();
 
-        hamers.add(new CarpentryHamer(000001, 5.14, 245.6, "PICKARD", "Normal PICKARD hammer", "Stal", "resources/images/carpenter/1.png","Long and short strait", "Solid square", false,"Carpenter"));
-        hamers.add(new CarpentryHamer(000002, 5.60, 460.87, "OSCR", "Special  Carbon hammer", "Carbon/Steel", "resources/images/carpenter/2.png","Double Long Picker curved", "Rounded", true,"Carpenter"));
-        hamers.add(new CarpentryHamer(000003,  2.76, 405.6, "GEDORE", "Smaller Aluminium GEDORE hammer", "Aluminium", "resources/images/carpenter/3.png","Long and short strait", "Solid square", false,"Carpenter"));
-        hamers.add(new CarpentryHamer(000004, 3.14, 505.6, "GEDORE", "Bigger Aluminium GEDORE hammer", "Aluminium", "resources/images/carpenter/4.png","Long and short strait", "Solid square", false,"Carpenter"));
-        hamers.add(new CarpentryHamer(000005, 2.15, 1205.6, "BANCO", "Perfect carpenter hammer", "Titanium", "resources/images/carpenter/5.png"," Long and short strait", "Solid square", true,"Carpenter"));
+        hamers.add(new CarpentryHamer(70001, 5.14, 245.6, "PICKARD", "Normal PICKARD hammer", "Stal", "resources/images/carpenter/1.png","Long and short strait", "Solid square", false,"Carpenter"));
+        hamers.add(new CarpentryHamer(70002, 5.60, 460.87, "OSCR", "Special  Carbon hammer", "Carbon/Steel", "resources/images/carpenter/2.png","Double Long Picker curved", "Rounded", true,"Carpenter"));
+        hamers.add(new CarpentryHamer(70003,  2.76, 405.6, "GEDORE", "Smaller Aluminium GEDORE hammer", "Aluminium", "resources/images/carpenter/3.png","Long and short strait", "Solid square", false,"Carpenter"));
+        hamers.add(new CarpentryHamer(70004, 3.14, 505.6, "GEDORE", "Bigger Aluminium GEDORE hammer", "Aluminium", "resources/images/carpenter/4.png","Long and short strait", "Solid square", false,"Carpenter"));
+        hamers.add(new CarpentryHamer(70005, 2.15, 1205.6, "BANCO", "Perfect carpenter hammer", "Titanium", "resources/images/carpenter/5.png"," Long and short strait", "Solid square", true,"Carpenter"));
 
         return hamers;
     }

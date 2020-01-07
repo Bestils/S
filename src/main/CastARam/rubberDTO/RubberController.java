@@ -64,12 +64,12 @@ public class RubberController implements Initializable {
     public ObservableList<RubberHammer> getCarpenterHammers() {
         ObservableList<RubberHammer> hamers = FXCollections.observableArrayList();
 
-        hamers.add(new RubberHammer(300001, 3.14, 245.46, "TEKTON", "Birch handle", "Birch", "resources/images/rubber/1.png",13,"rubber"));
-        hamers.add(new RubberHammer(300002, 6.60, 260.87, "STANLEY", "Steel hande", "Steel", "resources/images/rubber/2.png",54,"rubber"));
-        hamers.add(new RubberHammer(300003, 5.18, 112.36, "GEDORE", "Mix woods handle", "Mix", "resources/images/rubber/3.png",67,"rubber"));
-        hamers.add(new RubberHammer(300004, 4.40, 145.26, "KENEDY", "Nut handle", "Nut", "resources/images/rubber/4.png",42,"rubber"));
-        hamers.add(new RubberHammer(300004, 3.23, 235.16, "STANLEY", "New technology of head ", "Plastic/Silicon", "resources/images/rubber/5.png",42,"rubber"));
-        hamers.add(new RubberHammer(300005, 4.41, 145.56, "PROVE", "Oak handle", "Oak", "resources/images/rubber/6.png",23,"rubber"));
+        hamers.add(new RubberHammer(30001, 3.14, 245.46, "TEKTON", "Birch handle", "Birch", "resources/images/rubber/1.png",13,"rubber"));
+        hamers.add(new RubberHammer(30002, 6.60, 260.87, "STANLEY", "Steel hande", "Steel", "resources/images/rubber/2.png",54,"rubber"));
+        hamers.add(new RubberHammer(30003, 5.18, 112.36, "GEDORE", "Mix woods handle", "Mix", "resources/images/rubber/3.png",67,"rubber"));
+        hamers.add(new RubberHammer(30004, 4.40, 145.26, "KENEDY", "Nut handle", "Nut", "resources/images/rubber/4.png",42,"rubber"));
+        hamers.add(new RubberHammer(30004, 3.23, 235.16, "STANLEY", "New technology of head ", "Plastic/Silicon", "resources/images/rubber/5.png",42,"rubber"));
+        hamers.add(new RubberHammer(30005, 4.41, 145.56, "PROVE", "Oak handle", "Oak", "resources/images/rubber/6.png",23,"rubber"));
 
         return hamers;
     }
