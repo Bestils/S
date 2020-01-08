@@ -43,7 +43,7 @@
                               <Image url="@../../resources/images/carpenter/1.png" />
                            </image>
                         </ImageView>
-                        <Text layoutX="275.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Młotki Stolarskie" />
+                        <Text layoutX="275.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Carpenter Hammer" />
                         <Button layoutX="289.0" layoutY="88.0" mnemonicParsing="false" onAction="#carpenterButtonPushed" prefHeight="53.0" prefWidth="58.0" text="Enter" />
                      </children>
                   </AnchorPane>
@@ -53,13 +53,13 @@
                            <image>
                               <Image url="@../../resources/images/stone/3.png" />
                            </image></ImageView>
-                        <Text layoutX="240.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Młotki Kamieniarskei" />
+                        <Text layoutX="240.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stone Hammer" />
                         <Button layoutX="271.0" layoutY="88.0" mnemonicParsing="false" onAction="#stoneButtonPushed" prefHeight="53.0" prefWidth="58.0" text="Enter" />
                      </children>
                   </AnchorPane>
                   <AnchorPane prefHeight="152.0" prefWidth="574.0" style="-fx-border-style: dotted;">
                      <children>
-                        <Text layoutX="275.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Młotki Gumowe" />
+                        <Text layoutX="275.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rubber Hammer" />
                         <ImageView fitHeight="222.0" fitWidth="237.0" layoutX="14.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../../resources/images/rubber/1.png" />
