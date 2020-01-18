@@ -17,7 +17,7 @@ import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 import main.CastARam.Controller;
 import main.CastARam.shoppingCartDTO.ShoppingCart;
-import main.CastARam.shoppingCartDTO.shoppingCartController;
+import main.CastARam.shoppingCartDTO.ShoppingCartController;
 
 import java.io.IOException;
 import java.net.URL;
@@ -86,7 +86,7 @@ public class StoneController implements Initializable {
         Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
         //access the controller and call a method
-        shoppingCartController controller = loader.getController();
+        ShoppingCartController controller = loader.getController();
         cart.addItem(tableView.getSelectionModel().getSelectedItem());
         controller.initData(cart);
 
@@ -103,7 +103,7 @@ public class StoneController implements Initializable {
         Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
         //access the controller and call a method
-        shoppingCartController controller = loader.getController();
+        ShoppingCartController controller = loader.getController();
         controller.initData(cart);
 
         window.setScene(tableViewScene);

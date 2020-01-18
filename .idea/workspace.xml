@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="everything is done ;)">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/2020-01-17 20-02-27.flv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/CarpenterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/carpenterDTO/CarpenterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/rubberDTO/RubberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/rubberDTO/RubberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/shoppingCart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/shoppingCart.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/shoppingCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/ShoppingCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/sledgeDTO/SledgeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/sledgeDTO/SledgeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CastARam/stoneDTO/StoneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CastARam/stoneDTO/StoneController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +124,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/CastARam/stoneDTO" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -130,22 +141,22 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src" />
       <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\stoneDTO" />
       <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\sledgeHamerDTO" />
       <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam\rubberDTO" />
       <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\resources\images\carpenter" />
-      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="main.CastARam.shoppingCartDTO" />
       <recent name="main.CastARam" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\main\CastARam" />
+      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src" />
       <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\resources\images\carpenter" />
       <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\resources\images\sledge" />
       <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\resources\images\rubber" />
-      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\resources\images\stone" />
-      <recent name="C:\Users\Gladius\IdeaProjects\StudiesJava\src\resources\images\stone\4.png" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -337,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578433467261</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="everything is done ;)">
+      <created>1578516914280</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578516914280</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -375,38 +393,42 @@
     <state x="604" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1578240632417" />
     <state x="-871" y="351" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578223996479" />
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578144103986" />
-    <state x="567" y="142" key="CommitChangelistDialog2" timestamp="1578433465864">
+    <state x="567" y="142" key="CommitChangelistDialog2" timestamp="1578516912860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="496" y="143" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1578257464759" />
-    <state x="567" y="142" key="CommitChangelistDialog2/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578433465864" />
+    <state x="567" y="142" key="CommitChangelistDialog2/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578516912860" />
     <state x="649" y="151" width="438" height="488" key="FileChooserDialogImpl" timestamp="1578429883151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="568" y="152" key="FileChooserDialogImpl/0.0.1680.1050@0.0.1680.1050" timestamp="1578236669139" />
     <state x="-900" y="269" key="FileChooserDialogImpl/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1577641879676" />
     <state x="649" y="151" width="438" height="488" key="FileChooserDialogImpl/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578429883151" />
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1578516665297">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1317" height="166" key="GridCell.Tab.0.bottom" timestamp="1579287774085">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
+    <state width="1317" height="166" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1579287774085" />
     <state width="1638" height="242" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1578263161081" />
     <state width="1317" height="112" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578224236224" />
     <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578516665297" />
-    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1578516665297">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1317" height="166" key="GridCell.Tab.0.center" timestamp="1579287774085">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
+    <state width="1317" height="166" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1579287774084" />
     <state width="1638" height="242" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1578263161080" />
     <state width="1317" height="112" key="GridCell.Tab.0.center/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578224236224" />
     <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578516665297" />
-    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1578516665296">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1317" height="166" key="GridCell.Tab.0.left" timestamp="1579287774084">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
+    <state width="1317" height="166" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1579287774084" />
     <state width="1638" height="242" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1578263161079" />
     <state width="1317" height="112" key="GridCell.Tab.0.left/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578224236224" />
     <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578516665296" />
-    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1578516665297">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1317" height="166" key="GridCell.Tab.0.right" timestamp="1579287774085">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
+    <state width="1317" height="166" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1579287774085" />
     <state width="1638" height="242" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1578263161080" />
     <state width="1317" height="112" key="GridCell.Tab.0.right/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578224236224" />
     <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578516665297" />
@@ -440,18 +462,19 @@
     </state>
     <state x="690" y="447" key="VCS.ChangelistChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1578259656328" />
     <state x="789" y="443" key="VCS.ChangelistChooser/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578433302150" />
-    <state x="510" y="280" key="Vcs.Push.Dialog.v2" timestamp="1578434156087">
+    <state x="510" y="280" key="Vcs.Push.Dialog.v2" timestamp="1578516923854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="446" y="283" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1578257467123" />
-    <state x="510" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578434156087" />
+    <state x="510" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578516923854" />
     <state x="92" y="93" width="1734" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578409671297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="93" width="1734" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578409671297" />
-    <state x="661" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1578223321702">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="468" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1579387132451">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
+    <state x="468" y="242" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1579387132451" />
     <state x="661" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1360.163.1360.728@-1360.163.1360.728" timestamp="1578223321702" />
     <state x="661" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1360.163.1360.728@0.0.1920.1040" timestamp="1578172694943" />
     <state x="936" y="172" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578349643833">
@@ -484,7 +507,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/shoppingCartController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/CastARam/shoppingCartDTO/ShoppingCartController.java</url>
           <line>70</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

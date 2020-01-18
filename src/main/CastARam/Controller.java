@@ -14,7 +14,7 @@ import javafx.event.ActionEvent;
 import main.CastARam.carpenterDTO.CarpenterController;
 import main.CastARam.rubberDTO.RubberController;
 import main.CastARam.shoppingCartDTO.ShoppingCart;
-import main.CastARam.shoppingCartDTO.shoppingCartController;
+import main.CastARam.shoppingCartDTO.ShoppingCartController;
 import main.CastARam.sledgeDTO.SledgeController;
 import main.CastARam.stoneDTO.StoneController;
 
@@ -35,17 +35,6 @@ public class Controller implements Initializable {
 
 ShoppingCart cart = new ShoppingCart(FXCollections.observableArrayList());
 
-public void partsButtonPushed(ActionEvent  event) throws IOException {
-    Parent tableViewParent = FXMLLoader.load(getClass().getResource("drillHammerDTO/drill.fxml"));
-    Scene tableViewScene = new Scene(tableViewParent);
-
-    Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-
-    window.setScene(tableViewScene);
-    window.show();
-
-}
-
     public void changeSceneToDetailedPersonView(ActionEvent event) throws IOException
     {
         FXMLLoader loader = new FXMLLoader();
@@ -57,7 +46,7 @@ public void partsButtonPushed(ActionEvent  event) throws IOException {
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
 
         //access the controller and call a method
-        shoppingCartController controller = loader.getController();
+        ShoppingCartController controller = loader.getController();
         controller.initData( cart);
 
         window.setScene(tableViewScene);
@@ -95,6 +84,23 @@ public void partsButtonPushed(ActionEvent  event) throws IOException {
         //access the controller and call a method
         SledgeController controller = loader.getController();
 
+        controller.initData(cart);
+
+        window.setScene(tableViewScene);
+        window.show();
+    }
+
+    public void main(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("main.fxml"));
+        Parent tableViewParent = loader.load();
+
+        Scene tableViewScene = new Scene(tableViewParent);
+
+        Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+
+        //access the controller and call a method
+        Controller controller = loader.getController();
         controller.initData(cart);
 
         window.setScene(tableViewScene);
